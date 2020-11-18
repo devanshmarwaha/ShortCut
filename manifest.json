@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Short Cut",
+    "version": "1.0.0",
+    "description": "Provides you Shortcuts to social media platform easily and quickly.",
+    "author": "Devansh Marwaha",
+    "icons": {
+        "512": "people.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "people.png",
+        "default_title": "Social Media"
+    },
+    "permissions": ["activeTab"],
+    "background": {
+        "scripts": ["background.js"]
+    }
+
+}
